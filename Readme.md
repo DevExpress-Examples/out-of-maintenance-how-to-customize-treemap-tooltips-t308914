@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/TreeMapToolTipSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/TreeMapToolTipSample/MainWindow.xaml))**
+<!-- default file list end -->
 # How to customize TreeMap tooltips
 
 
