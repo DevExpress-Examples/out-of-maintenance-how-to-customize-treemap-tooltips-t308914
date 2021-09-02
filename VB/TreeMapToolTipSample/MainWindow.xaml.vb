@@ -16,25 +16,25 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace TreeMapToolTipSample
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+		End Sub
+	End Class
 
-    <ContentProperty("Position")> _
-    Public Class PositionWrapper
-        Public Property PositionName() As String
-        Public Property Position() As ToolTipPosition
-    End Class
+	<ContentProperty("Position")>
+	Public Class PositionWrapper
+		Public Property PositionName() As String
+		Public Property Position() As ToolTipPosition
+	End Class
 
-    Public Class OpenModeWrapper
-        Public Property OpenModeName() As String
-        Public Property OpenMode() As ToolTipOpenMode
-    End Class
+	Public Class OpenModeWrapper
+		Public Property OpenModeName() As String
+		Public Property OpenMode() As ToolTipOpenMode
+	End Class
 End Namespace
